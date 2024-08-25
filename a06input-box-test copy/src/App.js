@@ -9,9 +9,8 @@ function App() {
         <input
           type="text"
           placeholder="Enter User Name"
-          name="username"
+          name-="username"
           id="userId"
-          value="Sachin Singh"
         />
         <p>Code Step by Step</p>
       </header>
