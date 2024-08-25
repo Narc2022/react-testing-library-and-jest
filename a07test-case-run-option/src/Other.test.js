@@ -7,8 +7,9 @@ test("renders learn react link", () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test("test inputbox", () => {
+test("202 Test Inputbox ", () => {
   render(<App />);
+
   const checkInput = screen.getByRole("textbox");
   const checkInputPlace = screen.getByPlaceholderText(/Enter User Name/i);
 

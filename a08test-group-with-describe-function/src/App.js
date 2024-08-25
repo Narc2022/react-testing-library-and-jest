@@ -9,9 +9,20 @@ function App() {
         <input
           type="text"
           placeholder="Enter User Name"
-          name-="username"
+          name="username"
           id="userId"
+          value="Sachin Singh"
+          readOnly
         />
+
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
         <p>Code Step by Step</p>
       </header>
     </div>
