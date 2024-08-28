@@ -35,22 +35,6 @@ describe("UI test case group", () => {
     let checkInput = screen.getByRole("textbox");
     expect(checkInput).toHaveAttribute("name", "username");
   });
-});
-
-describe("Api test case group", () => {
-  test("test case 1", () => {
-    render(<App />);
-
-    let checkInput = screen.getByRole("textbox");
-    expect(checkInput).toHaveAttribute("name", "username");
-  });
-
-  test("test case 2", () => {
-    render(<App />);
-
-    let checkInput = screen.getByRole("textbox");
-    expect(checkInput).toHaveAttribute("name", "username");
-  });
 
   test("test case 3", () => {
     render(<App />);
